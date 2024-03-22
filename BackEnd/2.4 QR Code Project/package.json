@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "qr-image": "^3.2.0"
+  },
+  "name": "qr-code-gen",
+  "version": "1.0.0",
+  "description": "Qr Code Generartor",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JAmes",
+  "license": "ISC"
+}

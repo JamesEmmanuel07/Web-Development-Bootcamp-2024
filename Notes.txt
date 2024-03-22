@@ -1,0 +1,7 @@
+The Complete Web Development Bootcamp 2024
+
+- Formatting API Requests
+
+    Query Parameter
+    - e.g bored-api.appbrewery.com/endpont"?query=value"
+    

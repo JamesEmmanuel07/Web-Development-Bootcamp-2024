@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+
+<% if (locals.header) { %>
+    <div class="blog-container">
+       <div class="blog-header-block">
+        <h1 id="blog-header-id"><%= header %></h1>
+       </div>
+       <% if (locals.title) {%>
+        <h3 id="blog-title-id"><%= title %></h3>
+        <hr id="hr" />
+        <% } %>
+        <% if (locals.content) {%>
+        <div class="blog-content-block">
+            <p id="blog-content-id"><%= content %></p>
+        </div>
+        
+        <% } %>
+    </div>
+    
+<% } %>

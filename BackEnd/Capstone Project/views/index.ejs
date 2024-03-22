@@ -1,0 +1,85 @@
+<%- include('partials/header.ejs') %>
+
+
+<body>
+    <!-- <form action="/" method="post">
+        <span><label for="email">Email</label></span>
+        <input type="email" placeholder="email" id="email" name="email" /><br />
+        <textarea name="textarea" id="textarea" cols="30" rows="10">What's on your mind?...</textarea>
+        <input type="submit" id="button" />
+    </form> -->
+    <div class="main-article">
+        <div class="flex-item">
+            <p id="h1" class="item">Make Money Online Blog</p>
+            <p id="p" class="item">
+                The PennyMatters blog is your guide to making money online. 
+                We teach you how to create a brand for yourself and sell digital products,
+                start educational programs, leverage display ads, affiliate marketing and offer 
+                freelance services to supplement your earnings.
+            </p>
+            <button id="btn" class="item">
+                Use AI tools
+            </button>
+        </div>
+        
+        <div class="flex-item">
+            <img src="images/img.webp" alt="a lady holding $ notes" class="item" />
+        </div>
+    </div>
+    <div class="main-grid">
+        <div class="container">
+            <div class="item g1">
+                <h2 class="h1-g1">You<span style="color: red;">Tube</span></h2>
+                <p class="p-g1">37 YouTube Niches with Low Competition in 2024</p>
+            </div>
+            <div class="item g2">
+                <h2 class="h1-g2">Anime</h2>
+                <p class="p-g2">Is Anime Niche Profitable for Bloggers?</p>
+            </div>
+            <div class="item g3">
+                <h2 class="h1-g3">Grammarly</h2>
+                <p class="p-g3">
+                    Use Grammarly to improve your writing. With this tool, 
+                    you can check grammar from anywhere you work, check plagiarism from your…
+                </p>
+            </div>
+            <!-- <div class="item g4">
+                <h2 class="h1-g4"></h2>
+                <p class="p-g4"></p>
+            </div>
+            <div class="item g5">
+                <h2 class="h1-g5"></h2>
+                <p class="p-g5"></p>
+            </div>
+            <div class="item g6">
+                <h2 class="h1-g6"></h2>
+                <p class="p-g6"></p>
+            </div>
+            <div class="item g7">
+                <h2 class="h1-g7"></h2>
+                <p class="p-g7"></p>
+            </div>
+            <div class="item g8">
+                <h2 class="h1-g8"></h2>
+                <p class="p-g8"></p>
+            </div>
+            <div class="item g9">
+                <h2 class="h1-g9"></h2>
+                <p class="p-g9"></p> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="create">
+        <form action="/submit" method="POST">
+            <input type="text" placeholder="Header here.." name="header" id="fheader" required/>
+            <input type="text" placeholder="Title" name="title" id="ftitle" required/>
+            <textarea placeholder="Content here.." name="content" id="fcontent" required></textarea>
+            <input type="submit" value="Publish" id="fbtn">
+        </form>
+        <!-- <button id="create-post">Create Post</button> -->
+    </div>
+</body>
+
+
+<%- include('partials/footer.ejs') %>
