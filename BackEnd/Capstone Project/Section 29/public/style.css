@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+#crypto, #currency {
+    width: 100px;
+    margin: 10px;
+}
+#button {
+    width: 70px;
+    background-color: rgba(50, 35, 35, 0.212);
+    border: 0.6px solid black;
+}
